@@ -24,3 +24,7 @@ yarn-error.log*
 
 # env
 .env
+
+# remove node_modules from the client folder
+client/node_modules
+
