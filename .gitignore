@@ -27,4 +27,6 @@ yarn-error.log*
 
 # remove node_modules from the client folder
 client/node_modules
+# eslint cache
+.eslintcache
 
