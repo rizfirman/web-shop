@@ -40,7 +40,6 @@ export const productsSlice = createSlice({
     },
     setFavorites: (state, { payload }) => {
       state.favorites = payload;
-      // localStorage.setItem('favorites', JSON.stringify(payload));
     },
     setFavoritesToggled: (state, { payload }) => {
       state.favoritesToggled = payload;
